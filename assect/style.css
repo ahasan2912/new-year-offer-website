@@ -1,5 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Share styel */
+.primary-text-color{
+    color: #fff;
+}
 body{
     font-family: "Merriweather", serif;
+}
+/* banner section style starts here */
+.banner-container{
+    max-width: 1320px;
+    /* border: 2px solid red; */
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+.banner-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  text-align: center;
+}
+.banner-content p{
+    color: #fff;
+    font-size: 32px;
+}
+.banner-content h1{
+    color: #fff;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* 65% section style stars here */
+.second-section-container{
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.second-section-content{
+    margin-bottom: 48px;
+}
+.second-section-content h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    margin-bottom: 48px;
+}
+.second-section-content p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.second-section-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.img-container{
+    width: 802.9px;
+    height: 500px;   
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
 }
